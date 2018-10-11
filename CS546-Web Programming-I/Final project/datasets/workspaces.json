@@ -1,0 +1,48 @@
+{
+    "_id": "7b7997a2-c0d2-4f8c-b27a-6a1d4b5b6315",
+    "name": "Coffee cup",
+    "email": "service@coffecup.com",
+    "phone": "213-456-7890",
+    "address": "234, Cvr avenue, union city, New Jersey 07895",
+    "type": "Cafe",
+    "opensAt": "0900",
+    "closesAt": "2200",
+    "rating": "4.5",
+    "reviewsId": "7b7997a2-d0c2-4c8f-a27b-6a1d4b5b6315" 
+}
+{
+    "_id": "7c7997a2-c0d2-4f8c-b27a-6a1d4b5b6320",
+    "name": "William Library",
+    "email": "wlibrary@stevens.edu",
+    "phone": "551-456-7890",
+    "address": "9th Street, Hoboken, NJ 07030",
+    "type": "Library",
+    "opensAt": "0600",
+    "closesAt": "2400",
+    "rating": "4.48",
+    "reviewsId": "f82c6b8a-2c6a-45e2-887f-ad5f34631439"
+}
+{
+    "_id": "92de4c84-2f09-43c3-88e2-c0a000b93037",
+    "name": "Port of Entry",
+    "email": "bestcafe@poe.org",
+    "phone": "201-346-7900",
+    "address": "555 Palisade Ave, Jersey City, NJ 07307",
+    "type": "Cafe",
+    "opensAt": "0600",
+    "closesAt": "2000",
+    "rating": "5",
+    "reviewsId": "92de4c84-2f09-43c3-88e2-c0a000b94098"
+}
+{
+    "_id": "92de4c84-333a-43c3-88e2-a1c111b93037",
+    "name": "Tech Hub",
+    "email": "techhub@asl.org",
+    "phone": "551-366-7980",
+    "address": "400 Congress St, Jersey City, NJ 07307",
+    "type": "Office Space",
+    "opensAt": "0900",
+    "closesAt": "1700",
+    "rating": "4.8",
+    "reviewsId": "92de4c84-2f09-43c3-88e2-a1c111b93033"
+}

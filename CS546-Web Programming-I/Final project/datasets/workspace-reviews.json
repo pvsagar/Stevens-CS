@@ -1,0 +1,87 @@
+{
+    "_id": "7b7997a2-d0c2-4c8f-a27b-6a1d4b5b6315",
+    "totalReviews": "2",    
+    "userReviews": [
+        {
+            "_id": "7b7997a2-d0d2-4f8c-b27a-6a1d4b5b6350",
+            "name": "Robert Dias",
+            "email": "robertd@gmail.com",
+            "comment": "Peaceful place to work in.",
+            "rating": "4.4"
+        },
+        {
+            "_id": "7b7997a2-d0d2-4f8c-b27a-6a1d4b5b6360",
+            "name": "Michelle Alva",
+            "email": "michellea@aol.com",
+            "comment": "Good place",
+            "rating": "4.0"
+        }
+    ]
+}
+{
+    "_id": "f82c6b8a-2c6a-45e2-887f-ad5f34631439",
+    "totalReviews": "4",    
+    "userReviews": [
+        {
+            "_id": "f82c6b8a-2c6a-45e2-887f-ad5f12345439",
+            "name": "Robert Dias",
+            "email": "robertd@gmail.com",
+            "comment": "Peaceful place to work in.",
+            "rating": "4.4"
+        },
+        {
+            "_id": "f82c6b8a-2c6a-45e2-887f-ad5f12346439",
+            "name": "Michelle Alva",
+            "email": "michellea@gmail.com",
+            "comment": "Good place",
+            "rating": "4.0"
+        },
+        {
+            "_id": "f82c6b8a-2c6a-45e2-887f-ad5f12347439",
+            "name": "Good Student",
+            "email": "student@stevens.edu",
+            "comment": "Best place to study!!",
+            "rating": "5.0"
+        },
+        {
+            "_id": "f82c6b8a-2c6a-45e2-887f-ad5f12348439",
+            "name": "Kriti Ruhela",
+            "email": "kruhela@stevens.edu",
+            "comment": "Best place to complete work in Hoboken",
+            "rating": "4.5"
+        }
+    ]   
+}
+{
+    "_id": "92de4c84-2f09-43c3-88e2-c0a000b94098",
+    "totalReviews": "2",    
+    "userReviews": [
+        {
+            "_id": "92de4c84-2f09-43c3-77d2-a1a110b95090",
+            "name": "Kaysha Lloyd",
+            "email": "kayshal@yahoo.com",
+            "comment": "Peaceful place to work in. They serve best coffee too.",
+            "rating": "5"
+        },
+        {
+            "_id": "92de4c84-2f09-43c3-88e2-a1a110b95090",
+            "name": "Andrea Grut",
+            "email": "andreag@gmail.com",
+            "comment": "Silent and comfortable place to work in.",
+            "rating": "5"
+        }
+    ]
+}
+{
+    "_id": "92de4c84-2f09-43c3-88e2-a1c111b93033",
+    "totalReviews": "1",    
+    "userReviews": [
+        {
+            "_id": "98de4c84-2a89-43c3-88e2-a1c100b93033",
+            "name": "Sonal Pandey",
+            "email": "spandey@live.com",
+            "comment": "Clean and peaceful office space.",
+            "rating": "4.8"
+        }
+    ]
+}

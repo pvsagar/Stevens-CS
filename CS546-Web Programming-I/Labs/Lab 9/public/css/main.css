@@ -1,0 +1,89 @@
+
+
+body {
+    background: #fefefe;
+    font-family: Georgia, Cambria,'Times New Roman', Times, serif;
+    font-size: 15pt;
+    font-style: bold;   
+}
+main {
+    max-width: 75%;
+    margin: auto;
+}
+header {
+    border-bottom: 5px solid #afafaf;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin-bottom: 5px;
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.75rem;
+}
+h3 {
+    font-size: 1.75rem;
+}
+h4 {
+    font-size: 1.25rem;
+}
+h5 {
+    font-size: 1rem;
+}
+h6 {
+    font-size: 0.75rem;
+}
+p {
+    font-size: 1.5rem;
+    line-height: 2;
+}
+form {
+    border: 2px solid black;
+    padding: 1rem;
+    background-color:#D2D2D2;
+}
+label {
+    text-transform: uppercase;
+}
+.post {
+    width: 100%;
+    border-bottom: 1px dashed #333;
+}
+li.is-palindrome{
+    color: #0000FF;
+    font-style:bold;
+}
+li.not-palindrome{
+    color: #FF0000;
+    font-style:bold;
+}
+hr {   
+    border-style: inset;
+    border-width: 1px;
+}
+.footer {
+    position: absolute;
+    font-size: 1.25rem;
+}
+.down {
+    color:rgb(223, 63, 14);
+}
+.form-control{
+    font-family: 'Times New Roman', Times, serif,"Bauhaus 93",Centaur;
+    font-style: bold;
+}
+label {
+    font-family: Centaur;
+    font-size: 15pt;
+    font-style: bold;
+}
+.alert{
+    font-family: 'Times New Roman', Times, serif,"Bauhaus 93",Centaur;
+    font-style: bold;
+}
+.btn{
+    font-family: 'Times New Roman', Times, serif;
+}
+

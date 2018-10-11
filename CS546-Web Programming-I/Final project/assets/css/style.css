@@ -1,0 +1,27 @@
+html {
+    font-family: 'Nunito Sans', sans-serif;
+    width: 100%;
+}
+
+body {
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0;
+}
+ul li {
+    display: block;
+    list-style-type: none;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+a { 
+    color: black;
+}
+h3{
+    font-size: 1.5em;
+}

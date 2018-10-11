@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="/assets/css/user/auth.css">
+
+<div class="container">
+  <div id="workspace-list" class="row">
+    <div class="col-sm-12 panel panel-default">
+      <h1>Workspaces</h1>
+      <div class="">
+      {{#each workspace}}  
+        <div class="col-sm-3 panel-body workspace">
+          <h2><a href="/info/workspaceDetails/{{_id}}">{{name}}</a></h2>
+          <p>{{email}}</p>
+        </div>
+      {{/each}}
+      </div>
+    </div>
+  </div>
+</div>

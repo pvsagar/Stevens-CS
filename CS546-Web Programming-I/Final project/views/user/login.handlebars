@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="/assets/css/user/auth.css">
+<script src="/assets/js/user/auth.js"></script>
+<script src="/assets/js/user/login-form.js"></script>
+
+<div class="container">
+    <div class="row">
+        <div id="login" class="col-sm-6 offset-3">
+            <h1>Login to Account</h1>
+            <form id="login-form" method="post">
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email id">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter password" name="password">
+                </div>
+                <button type="button" id="login-btn" class="btn btn-primary" onclick="validateLoginForm()">Login</button>
+                <button type="button" class="btn btn-primary" onclick="redirectToForgetPassword()">Forget Password</button>
+                <button type="button" class="btn btn-primary" onclick="redirectToSignUp()">Create an Account</button>
+            </form>
+            <div id="alert" class="alert" role="alert"></div>
+        </div>
+    </div>
+</div>

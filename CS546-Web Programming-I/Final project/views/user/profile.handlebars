@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="/assets/css/user/auth.css">
+<script src="/assets/js/user/profile-edit.js"></script>
+<script>
+function profile() {
+           document.getElementById("profile-form").submit();
+             }
+        
+</script>
+<div class="container">
+    <div class="row"> 
+        <div id="profile" class="col-sm-6 offset-3">
+            <h1>My Profile</h1>
+            <form id="profile-form" method="post" action="/user/profile">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" value="{{user.name}}">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email id</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email id" name="email" value="{{user._id}}">
+                </div>
+                <div class="form-group">
+                    <label for="mobile">Mobile Number</label>
+                    <input type="text" class="form-control" id="mobile" placeholder="Enter mobile number" name="mobile" value="{{user.mobile}}">
+                </div>
+                <div class="form-group">
+                    <label for="areaofinterest">Area of Interest</label>
+                    <input type="text" class="form-control" id="areaofinterest" placeholder="Enter your area of interest" name="areaofinterest" value="{{user.areaOfInterest}}">
+                </div>
+                <button type="button" class="btn btn-primary" onclick="profile()">save</button>
+               
+            </form>
+        </div>
+    </div>
+</div>

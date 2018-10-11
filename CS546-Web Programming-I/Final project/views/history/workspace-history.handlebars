@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="/assets/css/user/auth.css">
+
+<div class="container">
+    <div class="row">
+        <div id="workspace-history" class="col-sm-6 offset-3">
+            <h1>Workspaces History</h1>
+            <div class="panel panel-default">
+                {{#each workspacesList}}
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <b>Workspace Name: </b>{{name}}
+                        </div>
+                        <div class="col-sm-6">
+                            <b>Workspace Email: </b>{{email}}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <b>Workspace Phone: </b>{{phone}}
+                        </div>
+                        <div class="col-sm-6">
+                            <b>Workspace Address: </b>{{address}}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <a href="user/workspace-review/{{_id}}">Write a review</a>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</div>

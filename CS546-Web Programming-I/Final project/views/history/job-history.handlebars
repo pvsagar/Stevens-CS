@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="/assets/css/user/auth.css">
+
+<div class="container">
+    <div class="row">
+        <div id="job-history" class="col-sm-6 offset-3">
+            <h1>Jobs History</h1>
+            <div class="panel panel-default">
+                {{#each jobsList}}
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <b>Job Project: </b>{{project}}
+                        </div>
+                        <div class="col-sm-6">
+                            <b>Job Position: </b>{{position}}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <b>Job Start Date: </b>{{start}}
+                        </div>
+                        <div class="col-sm-6">
+                            <b>Job End Date: </b>{{end}}
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</div>

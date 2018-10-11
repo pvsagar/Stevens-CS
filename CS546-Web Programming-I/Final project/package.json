@@ -1,0 +1,41 @@
+{
+  "name": "free-lancer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "npm install",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kruhela/Free-Lancer.git"
+  },
+  "keywords": [
+    "Free Lancer"
+  ],
+  "author": "Kriti Ruhela",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kruhela/Free-Lancer/issues"
+  },
+  "homepage": "https://github.com/kruhela/Free-Lancer#readme",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "handlebars": "^4.0.11",
+    "handlebars-intl": "^1.1.2",
+    "mongodb": "^3.0.7",
+    "mongoose": "^5.0.17",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "uuid": "^3.2.1",
+    "validator": "^10.2.0",
+    "xss": "^0.3.8"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "cs546-lab6",
+  "version": "1.0.0",
+  "description": "lab 6",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Vidya Sagar Polaki",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

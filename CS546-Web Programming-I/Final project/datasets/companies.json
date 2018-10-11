@@ -1,0 +1,174 @@
+{
+    "_id": "d0975326-7b43-479e-a109-cb818abec62d",
+    "name": "Morgan Stanley",
+    "email": "careers@morganstanley.com",
+    "mobile": "987-654-3210",
+    "logo": "/assets/images/logos/morgan-stanley.png",
+    "projects": [
+        {
+            "_id": "7b7997a2-c0d2-4f8c-b27a-6a1d4b5b6311",
+            "title": "Wealth Management System",
+            "desc": "An online loan website would allow AccionMFB to access online application, website, application information from any convenient location, using a single user ID and password. They would be able to do transactions online. The central goal of this initiative is to transform the day-to-day operations of the Bank by reducing paperwork; putting information services and transaction online; streamlining access to information, applicant’s results and content. Making it easy for applicants to find and use online services, and thus increasing the likelihood that the Bank can attain the strategic goals laid out in this initiative. I used a combination of surveys, focus groups, and one-on-one interviews to gather information from AccionMFB, staff, and from key personnel at other institutions that have related system.",
+            "position": "Java Developer",
+            "technologies": ["Java", "MySQL", "Sprint", "REST", "Apache Tomcat"],
+            "startDate": "04/06/2018",
+            "endDate": "08/10/2018",
+            "hours": "40"
+        },
+        {
+            "_id": "7b7997a2-c0d2-4f8c-b27a-6a1d4b5b6310",
+            "title": "Web Management System",
+            "desc": "An online loan website would allow AccionMFB to access online application, website, application information from any convenient location, using a single user ID and password. They would be able to do transactions online. The central goal of this initiative is to transform the day-to-day operations of the Bank by reducing paperwork; putting information services and transaction online; streamlining access to information, applicant’s results and content. Making it easy for applicants to find and use online services, and thus increasing the likelihood that the Bank can attain the strategic goals laid out in this initiative. I used a combination of surveys, focus groups, and one-on-one interviews to gather information from AccionMFB, staff, and from key personnel at other institutions that have related system.",
+            "position": "Web Developer",
+            "technologies": ["HTML", "CSS", "MongoDB", "JavaScript", "NodeJs"],
+            "startDate": "05/01/2018",
+            "endDate": "08/10/2018",
+            "hours": "40"
+        }
+    ]
+}
+{
+    "_id": "d0976666-7b43-479e-a109-cb820abec62d",
+    "name": "Goldman Sachs",
+    "email": "careers@gs.com",
+    "mobile": "987-456-3210",
+    "logo": "/assets/images/logos/goldman-sachs.png",
+    "projects": [
+        {
+            "_id": "7c7997a2-c0d2-4f8c-b27a-6a1d4b5b6333",
+            "title": "Bank Management System",
+            "desc": "An online loan website would allow AccionMFB to access online application, website, application information from any convenient location, using a single user ID and password. They would be able to do transactions online. The central goal of this initiative is to transform the day-to-day operations of the Bank by reducing paperwork; putting information services and transaction online; streamlining access to information, applicant’s results and content. Making it easy for applicants to find and use online services, and thus increasing the likelihood that the Bank can attain the strategic goals laid out in this initiative. I used a combination of surveys, focus groups, and one-on-one interviews to gather information from AccionMFB, staff, and from key personnel at other institutions that have related system.",
+            "position": "Java Developer",
+            "technologies": ["Java", "MySQL", "Sprint", "REST", "Apache Tomcat"],
+            "startDate": "04/10/2018",
+            "endDate": "08/14/2018",
+            "hours": "35"
+        },
+        {
+            "_id": "7c7997a2-c0d2-4f8c-b27a-6a1d4b5b6334",
+            "title": "Finance Management System",
+            "desc": "An online loan website would allow AccionMFB to access online application, website, application information from any convenient location, using a single user ID and password. They would be able to do transactions online. The central goal of this initiative is to transform the day-to-day operations of the Bank by reducing paperwork; putting information services and transaction online; streamlining access to information, applicant’s results and content. Making it easy for applicants to find and use online services, and thus increasing the likelihood that the Bank can attain the strategic goals laid out in this initiative. I used a combination of surveys, focus groups, and one-on-one interviews to gather information from AccionMFB, staff, and from key personnel at other institutions that have related system.",
+            "position": "Web Developer",
+            "technologies": ["HTML", "CSS", "MongoDB", "JavaScript", "NodeJs"],
+            "startDate": "06/04/2018",
+            "endDate": "08/10/2018",
+            "hours": "45"
+        }
+    ]
+}
+{
+    "_id": "a0975556-7b43-479e-a109-ab820abea55d",
+    "name": "Siemens",
+    "email": "careers@sm.com",
+    "mobile": "991-470-3410",
+    "logo": "/assets/images/logos/siemens.jpg",
+    "projects": [
+        {
+            "_id": "a0975556-7c43-479e-a109-ac777abea55d",
+            "title": "Bank Management System",
+            "desc": "An online loan website would allow AccionMFB to access online application, website, application information from any convenient location, using a single user ID and password. They would be able to do transactions online. The central goal of this initiative is to transform the day-to-day operations of the Bank by reducing paperwork; putting information services and transaction online; streamlining access to information, applicant’s results and content. Making it easy for applicants to find and use online services, and thus increasing the likelihood that the Bank can attain the strategic goals laid out in this initiative. I used a combination of surveys, focus groups, and one-on-one interviews to gather information from AccionMFB, staff, and from key personnel at other institutions that have related system.",
+            "position": "Java Developer",
+            "technologies": ["Java", "MySQL", "Sprint", "REST", "Apache Tomcat"],
+            "startDate": "05/10/2018",
+            "endDate": "09/15/2018",
+            "hours": "50"
+        },
+        {
+            "_id": "a0975556-7c43-479e-a109-ac778abea55d",
+            "title": "Finance Management System",
+            "desc": "An online loan website would allow AccionMFB to access online application, website, application information from any convenient location, using a single user ID and password. They would be able to do transactions online. The central goal of this initiative is to transform the day-to-day operations of the Bank by reducing paperwork; putting information services and transaction online; streamlining access to information, applicant’s results and content. Making it easy for applicants to find and use online services, and thus increasing the likelihood that the Bank can attain the strategic goals laid out in this initiative. I used a combination of surveys, focus groups, and one-on-one interviews to gather information from AccionMFB, staff, and from key personnel at other institutions that have related system.",
+            "position": "Web Developer",
+            "technologies": ["HTML", "CSS", "MongoDB", "JavaScript", "NodeJs"],
+            "startDate": "08/01/2018",
+            "endDate": "10/10/2018",
+            "hours": "55"
+        }
+    ]
+}
+{
+    "_id": "a0235556-7b43-479e-f420-ab820abea55d",
+    "name": "Société Générale",
+    "email": "careers@sg.com",
+    "mobile": "551-470-3250",
+    "logo": "/assets/images/logos/societe-generale.jpg",
+    "projects": [
+        {
+            "_id": "a0235556-7b43-555f-f420-ab820aabc55d",
+            "title": "Investment Banking System",
+            "desc": "An online loan website would allow AccionMFB to access online application, website, application information from any convenient location, using a single user ID and password. They would be able to do transactions online. The central goal of this initiative is to transform the day-to-day operations of the Bank by reducing paperwork; putting information services and transaction online; streamlining access to information, applicant’s results and content. Making it easy for applicants to find and use online services, and thus increasing the likelihood that the Bank can attain the strategic goals laid out in this initiative. I used a combination of surveys, focus groups, and one-on-one interviews to gather information from AccionMFB, staff, and from key personnel at other institutions that have related system.",
+            "position": "Java Developer",
+            "technologies": ["Java", "MySQL", "Sprint", "REST", "Apache Tomcat"],
+            "startDate": "04/10/2018",
+            "endDate": "08/14/2018",
+            "hours": "60"
+        }
+    ]
+}
+{
+    "_id": "d2089756-7b43-479e-f420-ab820abea55d",
+    "name": "Amazon",
+    "email": "careers@az.com",
+    "mobile": "201-333-5420",
+    "logo": "/assets/images/logos/amazon.png",
+    "projects": [
+        {
+            "_id": "d2089756-7b43-479e-f420-ab820abec667",
+            "title": "Shopping Assistant System",
+            "desc": "We're looking for talented, motivated graduates who can help us create new ways to interact, search and shop. If you are graduating in 2018 and have an interest in developing the next generation of shopping experiences, this is the job for you. Alexa Shopping enables customers to instantly order whatever they need, by simply interacting with their Smart Devices such as Echo or Fire TV. Our Services allow you to shop, no matter where you are or what you are doing; you can go from 'I want that' to 'that's on the way' in a matter of seconds.",
+            "position": "Software Developer",
+            "technologies": ["Java", "JavaScript", "C++", "MySQL","NodeJs", "REST", "Apache Tomcat"],
+            "startDate": "07/09/2018",
+            "endDate": "12/15/2018",
+            "hours": "65"
+        },
+        {
+            "_id": "d2089756-7c43-479e-f420-ab820abec669",
+            "title": "Teaching Assistant System",
+            "desc": "We're looking for talented, motivated graduates who can help us create new ways to interact, search and shop. If you are graduating in 2018 and have an interest in developing the next generation of shopping experiences, this is the job for you. Alexa Shopping enables customers to instantly order whatever they need, by simply interacting with their Smart Devices such as Echo or Fire TV. Our Services allow you to shop, no matter where you are or what you are doing; you can go from 'I want that' to 'that's on the way' in a matter of seconds.",
+            "position": "Software Developer",
+            "technologies": ["AWS", "JavaScript", "Amazon EC2", "MongoDb", "NodeJs"],
+            "startDate": "06/09/2018",
+            "endDate": "10/15/2018",
+            "hours": "60"
+        }
+    ]
+}
+{
+    "_id": "b2089756-7b54-479f-f420-ab777bbea55d",
+    "name": "Google",
+    "email": "careers@ggl.com",
+    "mobile": "917-333-3320",
+    "logo": "/assets/images/logos/google.png",
+    "projects": [
+        {
+            "_id": "b2089756-7b54-479f-f420-ab776bbea55d",
+            "title": "Location Management System",
+            "desc": "We're looking for talented, motivated graduates who can help us create new ways to interact, search and shop. If you are graduating in 2018 and have an interest in developing the next generation of shopping experiences, this is the job for you. Alexa Shopping enables customers to instantly order whatever they need, by simply interacting with their Smart Devices such as Echo or Fire TV. Our Services allow you to shop, no matter where you are or what you are doing; you can go from 'I want that' to 'that's on the way' in a matter of seconds.",
+            "position": "Software Developer",
+            "technologies": ["Java", "JavaScript", "MySQL","NodeJs", "REST", "Apache Tomcat"],
+            "startDate": "06/09/2018",
+            "endDate": "03/15/2019",
+            "hours": "70"
+        },
+        {
+            "_id": "b2089756-7b54-479f-f420-ab663bbea57d",
+            "title": "Health Management System",
+            "desc": "We're looking for talented, motivated graduates who can help us create new ways to interact, search and shop. If you are graduating in 2018 and have an interest in developing the next generation of shopping experiences, this is the job for you. Alexa Shopping enables customers to instantly order whatever they need, by simply interacting with their Smart Devices such as Echo or Fire TV. Our Services allow you to shop, no matter where you are or what you are doing; you can go from 'I want that' to 'that's on the way' in a matter of seconds.",
+            "position": "Java Developer",
+            "technologies": ["Java", "MySQL", "Sprint", "REST", "Apache Tomcat"],
+            "startDate": "06/09/2018",
+            "endDate": "08/11/2018",
+            "hours": "30"
+        },
+        {
+            "_id": "b2089756-7b54-479f-f420-ab666bbea59d",
+            "title": "Web Management System",
+            "desc": "We're looking for talented, motivated graduates who can help us create new ways to interact, search and shop. If you are graduating in 2018 and have an interest in developing the next generation of shopping experiences, this is the job for you. Alexa Shopping enables customers to instantly order whatever they need, by simply interacting with their Smart Devices such as Echo or Fire TV. Our Services allow you to shop, no matter where you are or what you are doing; you can go from 'I want that' to 'that's on the way' in a matter of seconds.",
+            "position": "Web Developer",
+            "technologies": ["HTML", "CSS", "MongoDB", "JavaScript", "NodeJs"],
+            "startDate": "06/04/2018",
+            "endDate": "08/10/2018",
+            "hours": "50"
+        }
+    ]
+}

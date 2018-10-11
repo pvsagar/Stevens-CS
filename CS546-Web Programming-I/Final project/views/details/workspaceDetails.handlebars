@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="/assets/css/user/auth.css">
+
+<div class="container">
+    <div class="row">
+        <div id="workspace-desc" class="col-sm-6 offset-3">
+            <h1>Workspaces Description</h1>
+            <div class="panel panel-default">
+                {{#each workspace}}
+                <div class="panel-body">
+                    <div class="row"><b>Workspace Name: </b>{{name}}</div>
+                    <div class="row"><b>Workspace Email: </b>{{email}}</div>
+                    <div class="row"><b>Workspace Phone: </b>{{phone}}</div>
+                    <div class="row"><b>Workspace Address: </b>{{address}}</div>
+                    <div class="row"><b>Workspace Type: </b>{{type}}</div>
+                    <div class="row"><b>Workspace Opens at: </b>{{opensAt}}</div>
+                    <div class="row"><b>Workspace Closes at: </b>{{closesAt}}</div>
+                    <div class="row"><b>Workspace Rating: </b>{{rating}} / 5</div>
+                </div>
+                {{/each}}
+            </div>
+
+            <h3>Workspaces Reviwes</h3>
+            <div class="panel panel-default">
+                {{#each reviews}}
+                <div class="panel-body">
+                    <div class="row"><b>Name of Reviewer: </b>{{name}}</div>
+                    <div class="row"><b>Comment: </b>{{comment}}</div>
+                    <div class="row"><b>Rating: </b>{{rating}}</div>
+                </div>
+                {{/each}}
+            </div>
+
+            {{#each workspace}}
+            <form method="post" action="/user/history/workspaces/">
+                <input class="hide" type="text" value="{{name}}" name="name">
+                <input class="hide" type="text" value="{{email}}" name="email">
+                <input class="hide" type="text" value="{{phone}}" name="phone">
+                <input class="hide" type="text" value="{{address}}" name="address">
+                <input type="submit" class="btn btn-primary" value="Book This Place">
+            </form>
+            {{/each}}
+        </div>
+    </div>
+</div>

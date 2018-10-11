@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-lab-3",
+  "version": "1.0.0",
+  "description": "lab 3",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Vidya Sagar Polaki",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "prompt": "^1.0.0"
+  }
+}

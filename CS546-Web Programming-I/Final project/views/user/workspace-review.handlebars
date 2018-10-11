@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="/assets/css/user/auth.css">
+<script src="/assets/js/user/workspace-review-form.js"></script>
+
+<div class="container">
+    <div class="row">
+        <div id="workspace-review" class="col-sm-6 offset-3">
+            <h1>Add a review for {{workspacesList.name}}</h1>
+            <form id="workspace-review-form">
+                <div class="form-group">
+                    <label for="comment">Comment</label>
+                    <input id="comment" class="form-control" name="comment" placeholder="Enter comment" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="rating">Rating</label>
+                    <input id="rating" class="form-control" name="rating" placeholder="Enter rating" type="text" >
+                </div>
+                <button id="workspace-review-btn" type="button" class="btn btn-primary" onclick="validateWorkspaceReviewForm('{{workspacesList._id}}')">Add Review</button>
+            </form>
+            <div id="alert" class="alert" role="alert"></div>
+        </div>
+    </div>
+</div>

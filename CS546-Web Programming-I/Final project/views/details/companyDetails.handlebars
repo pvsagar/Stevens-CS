@@ -1,0 +1,17 @@
+
+<article>
+    <h2>Welcome!</h2>
+    <label>Company Name</label> : {{Company}} <br/>
+    <!--{{#each projects}}
+                  <article class="projects"></article>
+                    <h3><a href="info/jobDetails/{{_id}}">{{title}}</a></h3>
+                    <label>Position</label> : {{position}}<br/>
+                  </article>
+    {{/each}}-->
+
+    {{#each Project}}
+        <h3><a href="info/jobDetails/{{_id}}">{{title}}</a></h3>
+        <label>Position</label> : {{position}}<br/>
+        <label>Technologies</label> : {{technologies}}<br/>
+    {{/each}}
+</article>

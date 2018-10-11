@@ -1,0 +1,85 @@
+<link rel="stylesheet" href="/assets/css/home/home.css">
+<script src="/assets/js/home/home.js"></script>
+
+<div class="container">
+    <!-- partition panel section starts from here -->
+    <div id="panel" class="row">
+        <div id="left-panel" class="col-sm-6">
+            <h1>Find a Job! </h1>
+            <p>Lorem ipsum dolor sit amet, ut id, vestibulum nec wisi vel scelerisque ut, et vestibulum risus enim vestibulum, vehicula ante, tortor erat non. Quis luctus, sed vestibulum urna dui eu rerum ac, nonummy commodo.</p>
+            <input type="button" value="Find a Job" name="job-search" style="background-color: #116466" onclick="findJobs()">
+            <!-- span><a href="/jobs"><img src="/assets/images/search-btn.png"></a></span -->
+        </div>
+
+        <div id="right-panel" class="col-sm-6">
+            <h1>Find a Workspace!</h1>
+            <p>Lorem ipsum dolor sit amet, ut id, vestibulum nec wisi vel scelerisque ut, et vestibulum risus enim vestibulum, vehicula ante, tortor erat non. Quis luctus, sed vestibulum urna dui eu rerum ac, nonummy commodo.</p>
+            <input type="button" value="Find a Workspace" name="workspace-search" style="background-color: #2c3531" onclick="findWorkspaces()">
+            <!--span><a href="/workspaces"><img src="/assets/images/search-btn.png"></a></span -->
+        </div>
+    </div>
+    <!-- partition panel section ends here -->
+    
+    <!-- Latest jobs section starts from here -->
+    <div id="recent-jobs" class="row">
+        <div class="col-sm-12">
+            <h1>Lastest Trending Jobs</h1>
+            <div class="row">
+                {{#each companies}}
+                <div class="item col-sm-3">
+                    <div class="col-sm-12">
+                        <div class="col-sm-2"><img src='{{logo}}' alt="logo"></div>
+                        <div class="col-sm-10"><h2>{{name}}</h2></div>
+                    </div>
+
+                    {{#if projects}}
+                    <div class="col-sm-12">
+                        <div><h3>{{projects.[0].position}}</h3></div>
+                        <div><p><b>Description: </b>{{shortDescription projects.[0].desc}}</p></div>
+                        <div><p><b>Technologies: </b>{{arrayToString projects.[0].technologies}}</p></div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="col-sm-5"><b>Hours: </b>{{projects.[0].hours}}</div>
+                        <div class="col-sm-7"><b>Starts: </b>{{projects.[0].startDate}}</div>
+                    </div>
+                    {{/if}}
+                    
+                    <div class="col-sm-12">
+                        <a href="/info/jobDetails/{{projects.[0]._id}}">Apply Now</a>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+    <!-- Latest jobs section ends here -->
+
+    <!-- Latest workspaces section starts from here -->
+    <div id="recent-workspaces" class="row">
+        <div class="col-sm-12">
+            <h1>New Available Workspaces</h1>
+            <div class="row">
+                {{#each workspaces}}
+                <div class="item col-sm-3">
+                    <div class="col-sm-12">
+                        <div class="col-sm-12"><h2>{{name}}</h2></div>
+                        <div class="col-sm-12"><b>Address: </b>{{shortAddress address}}</div>
+                        <div class="col-sm-12"><b>Phone: </b> {{phone}}</div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div><p><b>Review: </b>{{review}}</p></div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6"><b>Rating: </b>{{rating}} / 5</div>
+                        <div class="col-sm-6"><b>Opens at: </b>{{opensAt}}</div>
+                    </div>
+                    <div class="col-sm-12">
+                        <a href="/info/workspaceDetails/{{_id}}">Book Now</a>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+    <!-- Latest workspaces section ends here -->
+</div>

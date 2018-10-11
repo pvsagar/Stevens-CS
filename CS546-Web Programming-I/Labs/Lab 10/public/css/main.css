@@ -1,0 +1,49 @@
+
+
+body {
+    background: #fcf9f9;
+    font-family: Georgia, Cambria,'Times New Roman', Times, serif;
+    font-size: 15pt;
+}
+main {
+    max-width: 75%;
+    margin: auto;
+}
+header {
+    border-bottom: 5px solid #5a4545;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(92, 91, 91);
+    margin-bottom: 5px;
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+h3 {
+    font-size: 1.25rem;
+}
+h4 {
+    font-size: 1.25rem;
+}
+h5 {
+    font-size: 1rem;
+}
+h6 {
+    font-size: 1rem;
+}
+p {
+    font-size: 1rem;
+    line-height: 2;
+}
+form {
+    border: 2px solid rgb(15, 41, 190);
+    padding: 1rem;
+    background-color:#ababab;
+}
+label {
+    text-transform: uppercase;
+}
+

@@ -1,0 +1,111 @@
+#left-panel {
+    background-color: #e2e2e2;
+}
+#right-panel {
+    color: #fff;
+    background-color: #116466;
+}
+#left-panel, #right-panel {
+    display: inline-block;
+    height: 600px;
+    margin-bottom: 3em;
+    padding: 18% 5% 0;
+    text-align: center;
+    text-align: center;
+}
+#left-panel h1, #right-panel h1 {
+    font-size: 3em;
+    margin-bottom: 8px;
+}
+#left-panel p, #right-panel p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+#left-panel input, #right-panel input {
+    border: none;
+    font-size: 1.5em;
+    height: 3.5em;
+    outline: none;
+    padding: 0 2.6em 0 1em;
+    width: 95%;
+}
+#left-panel span, #right-panel span {
+    position: absolute;
+    margin:1.5em 0 0 -3.4em; 
+}
+#left-panel span img, #right-panel span img {
+    height: 2.5em;
+    width: 2.5em;
+}
+
+/**
+ * Lastest trending job section
+ */
+
+#recent-jobs, #recent-workspaces {
+    margin-bottom: 1em;
+    padding: 3em;
+}
+#recent-jobs {
+    background-color: #2c3531;
+ }
+#recent-workspaces {
+    background-color: #116466;
+} 
+
+#recent-jobs h1, #recent-workspaces h1 {
+    color: #fff;
+    margin-bottom: 1em;
+}
+#recent-jobs .col-sm-3, #recent-workspaces .col-sm-3 {
+    max-width: 24.3% !important;
+}
+#recent-jobs .item, #recent-workspaces .item {
+    background-color: #e2e2e2;
+    margin-right: 1em;
+    padding: 1em;
+}
+#recent-jobs .item > div.col-sm-12:first-child {
+    padding: 0;
+}
+#recent-jobs .item:last-child, #recent-workspaces .item:last-child {
+    margin-right: 0;
+}
+#recent-jobs .item > div, #recent-workspaces .item > div {
+    margin-bottom: 1em;
+}
+#recent-jobs .item > div:first-child, #recent-workspaces .item > div:first-child {
+    margin-top: 1em;
+}
+#recent-workspaces .item > div:first-child {
+    padding: 0;
+}
+#recent-jobs img {
+    height: 3em;
+    width: 3em;
+    vertical-align: baseline;
+}
+#recent-jobs p, #recent-workspaces p {
+    text-align: justify;
+    height: 6em;
+    margin: 0;
+    overflow: hidden;
+}
+#recent-jobs p {
+    height: 4.5em;
+}
+#recent-jobs a, #recent-workspaces a {
+    border: 1px solid #2c3531;
+    cursor: pointer;
+    display: block;
+    line-height: 2em;
+    padding: .8em 2em;
+    text-align: center;
+    transition-duration: 1s;
+    width: 100%;
+}
+#recent-jobs a:hover, #recent-workspaces a:hover     {
+    background-color: #2c3531;
+    color: #e2e2e2;
+    transition-duration: 1s;
+}

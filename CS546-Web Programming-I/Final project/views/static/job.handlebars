@@ -1,0 +1,37 @@
+
+<script src="/assets/js/jobs/job-search.js"></script>
+
+  <div class="container-fluid">
+    <div class="row content">
+      <div class="col-sm-2 sidenav">
+        <form class="techFilter" id="techFilter">
+          <p> Apply Technology Filter:</p>
+          <p><input id="java" type="checkbox" value="Java"><label for="java">Java</label></p>
+          <p><input id="python" type="checkbox" value="Python"><label for="python">Python</label></p>
+          <p><input id="html" type="checkbox" value="HTML"><label for="html">HTML</label></p>
+          <p><input type="button" value="Apply" onclick="filter()"></p>
+      </form>
+    </div>
+    <div class="col-sm-8 text-left">
+      <h1> Search for Jobs:</h1>
+      <form>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search" id="searchInput" name="searchInput" onkeyup="searchBar()">
+        </div>
+      </form>
+    
+      <!--//edit the jobs here-->
+        <h1>Jobs Available</h1>
+          <ol id="companyList" class="companyList">
+          {{#each company}}   
+          <li><article class="company">
+            <h2><a href="/info/companyDetails/{{_id}}">{{name}}</a></h2>
+            {{#each projects}}
+            <h3><a href="/info/jobDetails/{{_id}}">{{position}}</a></h3>
+            {{/each}}
+          </article></li> 
+          {{/each}}
+          </ol> 
+    </div>
+  </div>
+</div>
